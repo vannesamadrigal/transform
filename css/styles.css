@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+    font-family: 'Tilt Warp', cursive;
+}
+#botones{
+width: 100%;
+min-height: 100vh;
+text-align: center;
+padding: 100px 50px ;
+padding: 100px  0px;
+background: url("../img/imagen1.jpg");
+background-size: cover;
+}
+#botones button{
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    color: purple;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 15px;
+    border-radius: 15px;
+    font-family: 'Tilt Warp', cursive;
+    transition: .5s;
+}
+#botones h1{
+    font-size: 40px;
+    color: purple;
+}
+#botones button:hover{
+    background: palevioletred;
+    color:white;
+    padding: 14px 50px;
+
+}
+
+
+
+
+
+/* Style ejercicio Figura */
+#ContPrincipal{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px;   
+    background: black;
+
+}
+#ContPrincipal #botones{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rosybrown;
+    color: purple;
+
+}
+#ContPrincipal #ContFigura{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rosybrown;
+    color: purple;
+
+}
+#figura{
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 40px auto;
+    transition: .5s;
+}
+
+#figura.circulo{
+   
+    border-radius: 50%;
+    transition: .5s;
+}
+#figura.rectangulo{
+    width: 400px;
+    transition: .5s;
+
+
+
+}
+#figura.rombo{
+    transform: rotate(45deg);
+    transition: .5s
+}
+
+#figura.gif{
+    
+    background: url("../img/giphy.gif");
+    background-size:cover;
+    transition: .5s;
+
+}
+
+#figura.izquierda{
+    transform: translateX(-200);
+}
